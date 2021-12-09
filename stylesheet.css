@@ -1,0 +1,206 @@
+/* Layout untuk Tablet */
+@media (max-width: 1000px) {
+  .flex-list {
+    flex-wrap: wrap;
+  }
+  .flex-list li {
+    width: 50%;
+  }
+}
+
+/* Layout untuk Smartphone */
+@media (max-width: 670px) {
+  .flex-list {
+    flex-direction: column;
+  }
+
+  .flex-list li {
+    margin: 0 auto;
+  }
+}
+
+* {
+  box-sizing: unset;
+}
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 0px;
+    margin: 0 auto;
+    color:#ffffff;
+  }
+  
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(https://image.freepik.com/free-vector/dynamic-gradient-football-background_23-2149007789.jpg);
+    background-size: cover;
+    color:#ffffff;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper p {
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+  }
+
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .lesson-wrapper {
+    height: 600px;
+    padding-bottom: 2500px;
+    color: #ffffff;
+    background-image: url(https://i.pinimg.com/564x/2a/cf/34/2acf342f4720e2e638f3fe9db86c2e03.jpg);
+    background-size: cover;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #ffffff;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+
+  }
+  
+  .lesson {
+    float: left;
+    width: 100%;
+  }
+  
+  .lesson-icon {
+    position: relative;
+  }
+  
+  .lesson-icon p {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: white;
+  }
+  
+  .txt-contents {
+    width: 50%;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #ffffff;
+  }
+  
+  .heading h3 {
+    font-weight: normal;
+  }
+  
+  .message-wrapper {
+    border-bottom: 0px solid white;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+
+  .message {
+    padding: 15px 40px;
+    background-color: #1dad30;
+    cursor: pointer;
+    box-shadow: 0 7px #044910;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+  footer p {
+    color: #ffffff;
+    font-size: 20px;
+  }
+  
+  footer {
+padding-top: 100px;
+padding-bottom: 100px;
+  }
+
+  span.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0px;
+    padding: 60px 0px;
+    text-align: center;
+  }
+  
+  .flex-list {
+    display: flex;
+  }
+  .flex-list li {
+    flex: auto;
+  }
